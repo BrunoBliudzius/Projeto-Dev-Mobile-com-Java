@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="206dp"
+        android:layout_height="107dp"
+        android:layout_gravity="center"
+        android:src="@drawable/imagemong" />
+
+    <Button
+        android:id="@+id/bt_Doar"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Faça sua doação"
+        android:textSize="17dp"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Login/Cadastro"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/txt_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:text="Quem somos?"
+        android:textSize="50sp"
+         />
+
+    <TextView
+        android:id="@+id/txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:textStyle="bold"
+        android:text="
+        A projeto sorriso verde, é uma ong que tem como missão promover o desenvolvimento integral das crianças por meio da conexão com a natureza;
+da prática esportiva e do lazer criativo. Tem como objetivo impactar positivamente a vida de crianças, proporcionando experiências significa -
+tivas cativas de aprendizado, saúde e diversão ao ar livre. Através de nossos programas e iniciativas, esperamos contribuir para a formação de
+uma geração mais consciente, ativa e conectada com o meio ambiente."
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:textStyle="bold"
+        android:text="A nossa estratégia é baseada em 4 pilares:"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="
+        1- Programas de Educação Ambiental:
+Buscamos cultivar valores de preservação e responsabilidade ambiental com nossas crianças, promovendo uma consciencia sobre que o mundo. Realizamos atividades como reciclagem, oficina com materiais naturais e plantio"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="
+        2- Eventos Esportivos:
+Oferecemos programas esportivos como futebol, corridas e judô em ambientes naturais, assim as crianças podem ampliar ainda mais a conexão com a natureza e desenvolver maturidade social."
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="
+        3- Projetos de ação comunitária:
+Estabelecemos parcerias com escolas, instituições locais e outras ONGs para ampliar o alcance e o impacto das atividades, além de envolver pais e comunidades na promoção de um estilo de vida saudável e sustentável para as crianças.
+"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="
+        4- Capacitação de Educadores e Voluntários:
+Oferecemos treinamentos e recursos para educadores, pais e voluntários interessados em promover o meio ambiente, o esporte e o lazer infantil em suas comunidades."
+        android:textSize="18sp"
+        android:layout_marginBottom="36dp"
+        />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:id="@+id/main"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="206dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:src="@drawable/imagemong" />
+
+        <Button
+            android:id="@+id/bt_quemsomos"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Nossa missão"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Login/Cadastro"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/doadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:text="Doadores"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+</ScrollView>
